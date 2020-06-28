@@ -12,5 +12,3 @@ let transformData = (line) => {
 }
 
 myInterface.on('line', transformData);
-
-transformData('avocados');
